@@ -1,0 +1,217 @@
+/* @font-face {
+  font-family: FrankKnows;
+  src: url(FrankKnows-jr5l.ttf);
+}
+body {
+    background-image: url(donnie.png);
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1, h5 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: FrankKnows;
+    font-size: 60px;
+  }
+  
+  .win {
+    color: white;
+    background-color: green;
+  }
+  
+  .loss {
+    color: white;
+    background-color: red;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  #guessBox {
+      height: 60px;
+      border-radius: 10px;
+      padding-top: 5px;
+      font-size: 18pt;
+      width: 200px;
+      padding-left: 10px;
+  }
+  
+  /* Buttons */
+  /* .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(71, 71, 71);
+  }
+  
+  .button:hover {background-color: rgb(255, 255, 255)}
+  
+  .button:active {
+    background-color: rgba(59, 59, 59, 0.527);
+    box-shadow: 0 5px rgb(255, 255, 255);
+    transform: translateY(4px);
+  } */
+  @font-face {
+    font-family: FrankKnows;
+    src: url(FrankKnows-jr5l.ttf);
+  }
+  body {
+    background-image: url(donnie.png);
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1, h5 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: FrankKnows;
+    font-size: 60px;
+  }
+
+  #gallows {
+    padding-left: 70px;
+  }
+  
+  .win {
+    color: white;
+    background-color: green;
+  }
+  
+  .loss {
+    color: white;
+    background-color: red;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: FrankKnows;
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: FrankKnows;
+  }
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-family: FrankKnows;
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 5px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  #guessBox {
+      height: 60px;
+      border-radius: 5px;
+      padding-top: 5px;
+      font-size: 18pt;
+      width: 200px;
+      padding-left: 10px;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #666;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: rgb(255, 255, 255)}
+  
+  .button:active {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
